@@ -1,0 +1,12 @@
+name = Breakpoints
+description = Export site breakpoints
+core = 7.x
+package = AA (Features)
+version = 7.x-1.0
+project = aa_breakpoints
+dependencies[] = breakpoints
+dependencies[] = ctools
+features[breakpoints][] = custom.aa_theme.mobile
+features[breakpoints][] = custom.aa_theme.normal
+features[ctools][] = breakpoints:default_breakpoints:1
+features[features_api][] = api:2
